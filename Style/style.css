@@ -13,11 +13,45 @@
 }
 
 body {
+  min-height: 100vh;
   font-family: "Open Sans", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  min-width: 100vw;
+  padding: 70px 100px;
+}
+
+section.top__description {
+  gap: 30px;
 }
 
 h1 {
   font-family: "Poppins", sans-serif;
+}
+
+textarea {
+  resize: none;
+}
+
+.btn-top {
+  color: var(--pink);
+  font-size: 18px;
+  border: 2px solid var(--pink);
+  border-radius: 50px;
+  background-color: white;
+  padding: 10px 30px;
+}
+
+.btn-in {
+  color: white;
+  background-color: var(--pink);
+  border-radius: 50px;
+  border: none;
+  padding: 30px 120px;
+  font-size: 24px;
 }
 
 .attribution {
@@ -27,4 +61,11 @@ h1 {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+.display__flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
