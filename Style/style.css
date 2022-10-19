@@ -24,12 +24,63 @@ header {
   padding: 70px 100px;
 }
 
+main {
+  margin-top: 150px;
+}
+
 section.top__description {
   gap: 30px;
 }
 
+section.numbers__messages {
+  flex-direction: row;
+  gap: 400px;
+}
+
+div.communities__in p:first-child,
+div.messages__in p:first-child {
+  font-size: 6rem;
+  font-weight: bold;
+}
+
+section.grow__together {
+  background-color: var(--pale-blue);
+  padding: 80px 50px;
+  flex-direction: row;
+}
+
+div.section__inner h1 {
+  margin-bottom: 40px;
+}
+
+div.bg__top__1 {
+  background-image: url(../images/bg-section-top-desktop-1.svg);
+}
+
+div.bg__bottom__1 {
+  background-image: url(../images/bg-section-bottom-desktop-1.svg);
+}
+
+div.bg__sect {
+  width: 100%;
+  height: 55px;
+  padding: 10em;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+p {
+  font-size: 22px;
+}
+
+div.td__p {
+  width: 700px;
+  text-align: center;
+}
+
 h1 {
   font-family: "Poppins", sans-serif;
+  font-size: 60px;
 }
 
 textarea {
@@ -50,7 +101,7 @@ textarea {
   background-color: var(--pink);
   border-radius: 50px;
   border: none;
-  padding: 30px 120px;
+  padding: 30px 110px;
   font-size: 24px;
 }
 
