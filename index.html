@@ -24,7 +24,9 @@
 
 <body class="display__flex">
   <header>
-    <img src="images/logo.svg" alt="Huddle Logo">
+    <div class="logo__img">
+      <img class="logo" src="images/logo.svg" alt="Huddle Logo">
+    </div>
     <button class="btn-top">Try It Free</button>
   </header>
 
@@ -41,12 +43,12 @@
     </section>
 
     <figure class="screen__mockups">
-      <img src="images/screen-mockups.svg" alt="Screen Mockups">
+      <img class="screen__mockups__img" src="images/screen-mockups.svg" alt="Screen Mockups">
     </figure>
 
     <section class="numbers__messages display__flex">
       <div class="communities">
-        <img src="images/icon-communities.svg" alt="Communities">
+        <img class="mess__com_img" src="images/icon-communities.svg" alt="Communities">
         <div class="communities__in display__flex">
           <p>1.4k+</p>
           <p>Communities Formed</p>
@@ -55,7 +57,7 @@
       </div>
 
       <div class="messages">
-        <img src="images/icon-messages.svg" alt="Messages">
+        <img class="mess__com_img" src="images/icon-messages.svg" alt="Messages">
         <div class="messages__in display__flex">
           <p>2.7m+</p>
           <p>Messages Sent</p>
@@ -110,7 +112,7 @@
   <div class="bg__top__footer bg__sect"></div>
   <footer class="display__flex">
     <section class="footer__left__side display__flex">
-      <img src="" alt="Huddle Logo">
+      <img class="logo" src="images/logo-white.svg" alt="Huddle Logo">
       <div class="footer__left__p">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia
@@ -121,7 +123,11 @@
       <p class="phone"><img src="images/icon-phone.svg" alt="Icon Phone">Phone: +1-543-123-4567</p>
       <p class="email"><img src="images/icon-email.svg" alt="Icon Email">example@huddle.com</p>
 
-      <div class="socials"></div>
+      <div class="socials">
+        <ion-icon name="logo-facebook"></ion-icon>
+        <ion-icon name="logo-instagram"></ion-icon>
+        <ion-icon name="logo-twitter"></ion-icon>
+      </div>
     </section>
 
     <section class="footer__right__side display__flex">
@@ -134,19 +140,14 @@
       </div>
 
       <div class="footer__right__field display__flex">
-        <textarea name="email" id="email" cols="40" rows="3"></textarea>
+        <input class="email__input" type="text">
         <button class="btn-bot">Subscribe</button>
       </div>
     </section>
   </footer>
 
-  <!-- <div class="footer__bottom__attribution">
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="https://www.frontendmentor.io/profile/CurseTommy" target="_blank">Tomasz</a>.
-    </p>
-  </div> -->
-
 </body>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </html>
