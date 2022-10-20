@@ -40,7 +40,7 @@
       <button class="btn-in">Get Started For Free</button>
     </section>
 
-    <figure class="screen__mockups" style="margin-top:80px;">
+    <figure class="screen__mockups">
       <img src="images/screen-mockups.svg" alt="Screen Mockups">
     </figure>
 
@@ -65,7 +65,7 @@
     </section>
 
     <div class="bg__top__1 bg__sect"></div>
-    <section class="grow__together display__flex">
+    <section class="display__flex main__section">
       <div class="section__inner">
         <h1>Grow Together</h1>
         <p>
@@ -73,68 +73,80 @@
           Think of the insightful conversations you miss out on with a feedback form
         </p>
       </div>
-      <img src="images/illustration-grow-together.svg" alt="Grow Together">
+      <img class="illustration" src="images/illustration-grow-together.svg" alt="Grow Together">
     </section>
     <div class="bg__bottom__1 bg__sect"></div>
 
-    <section class="flowing_conv">
-      <h1>Flowing Conversations</h1>
-      <p>
-        You wouldn't paginate a conversation in real life, so why do it online? Our threads have
-        just-in-time loading for a more natural flow.
-      </p>
-      <img src="images/illustration-flowing-conversation.svg" alt="Flowing Conversations">
+    <section class="display__flex main__section no__bgc" style="margin-bottom: 150px;">
+      <img class="illustration" src="images/illustration-flowing-conversation.svg" alt="Flowing Conversations">
+      <div class="section__inner">
+        <h1>Flowing Conversations</h1>
+        <p>
+          You wouldn't paginate a conversation in real life, so why do it online? Our threads have
+          just-in-time loading for a more natural flow.
+        </p>
+      </div>
     </section>
 
-    <section class="your__users">
-      <h1>Your Users</h1>
-      <p>
-        It takes no time at all to integrate Huddle with your app's authentication solution. This means,
-        once signed in to your app, your users can start chatting immediately.
-      </p>
-      <img src="images/illustration-your-users.svg" alt="Your Users">
+    <div class="bg__top__2 bg__sect"></div>
+    <section class="display__flex main__section">
+      <div class="section__inner">
+        <h1>Your Users</h1>
+        <p>
+          It takes no time at all to integrate Huddle with your app's authentication solution. This means,
+          once signed in to your app, your users can start chatting immediately.
+        </p>
+      </div>
+      <img class="illustration" src="images/illustration-your-users.svg" alt="Your Users">
     </section>
+    <div class="bg__bottom__2 bg__sect"></div>
 
-    <section class="ready__build__commun">
+    <section class="display__flex" style="gap: 50px;">
       <h1>Ready To Build Your Community?</h1>
       <button class="btn-in">Get Started For Free</button>
     </section>
-
   </main>
 
-  <footer>
-    <section class="footer__left__side">
-      <img src="images/logo.svg" alt="Huddle Logo">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia
-        vestibulum a, ultrices quis sem.
-      </p>
+  <div class="bg__top__footer bg__sect"></div>
+  <footer class="display__flex">
+    <section class="footer__left__side display__flex">
+      <img src="" alt="Huddle Logo">
+      <div class="footer__left__p">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia
+          vestibulum a, ultrices quis sem.
+        </p>
+      </div>
 
-      <p>Phone: +1-543-123-4567</p>
-      <p>example@huddle.com</p>
+      <p class="phone"><img src="images/icon-phone.svg" alt="Icon Phone">Phone: +1-543-123-4567</p>
+      <p class="email"><img src="images/icon-email.svg" alt="Icon Email">example@huddle.com</p>
 
       <div class="socials"></div>
     </section>
 
-    <section class="footer__right__side">
+    <section class="footer__right__side display__flex">
       <h2>Newsletter</h2>
-      <p>
-        To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never
-        send you spam or pass on your email address
-      </p>
+      <div class="footer__right__p">
+        <p>
+          To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never
+          send you spam or pass on your email address
+        </p>
+      </div>
 
-      <textarea name="email" id="email" cols="40" rows="3"></textarea>
-
-      <button class="btn-bot">Subscribe</button>
+      <div class="footer__right__field display__flex">
+        <textarea name="email" id="email" cols="40" rows="3"></textarea>
+        <button class="btn-bot">Subscribe</button>
+      </div>
     </section>
-
-    <div class="footer__bottom__attribution">
-      <p class="attribution">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-        Coded by <a href="https://www.frontendmentor.io/profile/CurseTommy" target="_blank">Tomasz</a>.
-      </p>
-    </div>
   </footer>
+
+  <!-- <div class="footer__bottom__attribution">
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://www.frontendmentor.io/profile/CurseTommy" target="_blank">Tomasz</a>.
+    </p>
+  </div> -->
+
 </body>
 
 </html>

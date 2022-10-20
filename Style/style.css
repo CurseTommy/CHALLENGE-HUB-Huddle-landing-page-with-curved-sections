@@ -15,6 +15,7 @@
 body {
   min-height: 100vh;
   font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
 }
 
 header {
@@ -26,6 +27,49 @@ header {
 
 main {
   margin-top: 150px;
+}
+
+section {
+  padding: 100px 0;
+}
+
+footer {
+  background-color: var(--dark-cyan);
+  width: 100%;
+  padding: 0 150px;
+  color: white;
+}
+
+footer section.display__flex {
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+footer.display__flex {
+  flex-direction: row;
+}
+
+p.phone img,
+p.email img {
+  padding-right: 15px;
+}
+
+div.footer__left__p {
+  margin-right: 400px;
+}
+
+div.footer__right__p {
+  margin-right: 300px;
+}
+
+div.footer__right__field {
+  flex-direction: row;
+  gap: 50px;
+}
+
+h2 {
+  font-size: 32px;
 }
 
 section.top__description {
@@ -43,14 +87,20 @@ div.messages__in p:first-child {
   font-weight: bold;
 }
 
-section.grow__together {
+section.main__section {
   background-color: var(--pale-blue);
-  padding: 80px 50px;
+  padding: 80px 170px;
   flex-direction: row;
+  gap: 250px;
+}
+
+section.no__bgc {
+  background-color: white;
 }
 
 div.section__inner h1 {
   margin-bottom: 40px;
+  font-size: 48px;
 }
 
 div.bg__top__1 {
@@ -59,14 +109,31 @@ div.bg__top__1 {
 
 div.bg__bottom__1 {
   background-image: url(../images/bg-section-bottom-desktop-1.svg);
+  margin-bottom: 200px;
+}
+
+div.bg__top__2 {
+  background-image: url(../images/bg-section-top-desktop-2.svg);
+}
+
+div.bg__bottom__2 {
+  background-image: url(../images/bg-section-bottom-desktop-2.svg);
+}
+
+div.bg__top__footer {
+  background-image: url(../images/bg-footer-top-desktop.svg);
 }
 
 div.bg__sect {
   width: 100%;
   height: 55px;
-  padding: 10em;
+  padding: 100px;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+img.illustration {
+  width: 40%;
 }
 
 p {
@@ -85,6 +152,7 @@ h1 {
 
 textarea {
   resize: none;
+  border-radius: 10px;
 }
 
 .btn-top {
@@ -103,6 +171,16 @@ textarea {
   border: none;
   padding: 30px 110px;
   font-size: 24px;
+}
+
+.btn-bot {
+  background-color: var(--pink);
+  border: none;
+  border-radius: 10px;
+  padding: 17px 70px;
+  font-weight: 700;
+  font-size: 18px;
+  color: white;
 }
 
 .attribution {
